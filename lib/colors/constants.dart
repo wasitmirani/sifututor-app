@@ -11,7 +11,9 @@ const kSubtitleColor = 0xff7C7C7C;
 const kSecondaryColor = 0xffF2F3F2;
 const kBorderColor = 0xffE2E2E2;
 
-const primary = Color(0xFF697bfd);
+const primary = Color(0xFF5068ff);
+// Color color = Theme.of(context).primaryColor;
+
 const white = Color(0xFFFFFFFF);
 const black = Color(0xFF000000);
 const grey = Color(0xFFF6F6F6);
@@ -31,6 +33,11 @@ final TextStyle DescriptionStyle = TextStyle(
 const HeadingTextStyle = TextStyle(
   fontSize: 22,
   fontWeight: FontWeight.w600,
+);
+const JobTextStyle = TextStyle(
+  fontSize: 14,
+  fontWeight: FontWeight.w600,
+  color: Colors.black38,
 );
 const SubHeadingTextStyle = TextStyle(
   fontSize: 18,

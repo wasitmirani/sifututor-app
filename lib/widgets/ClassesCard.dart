@@ -15,15 +15,15 @@ Widget ClassesCard(context) {
         Row(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-            Container(
-                padding: EdgeInsets.fromLTRB(20, 20, 10, 0),
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(20.0),
-                  child: Image.asset(
-                    '/man.png',
-                    width: 50,
-                  ),
-                )),
+            // Container(
+            //     padding: EdgeInsets.fromLTRB(20, 20, 10, 0),
+            //     child: ClipRRect(
+            //       borderRadius: BorderRadius.circular(20.0),
+            //       child: Image.asset(
+            //         '/images/man.png',
+            //         width: 50,
+            //       ),
+            //     )),
             Container(
               padding: EdgeInsets.fromLTRB(10, 20, 10, 0),
               child: Text(

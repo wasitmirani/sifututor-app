@@ -4,6 +4,7 @@ import 'package:date_format/date_format.dart';
 import 'package:intl/intl.dart';
 
 import 'package:sifututor/widgets/InfoCard.dart';
+import 'package:sifututor/widgets/JobTicketCard.dart';
 
 import '../colors/constants.dart';
 import '../widgets/ClassesCard.dart';
@@ -93,7 +94,7 @@ class _HomeScreenState extends State<HomeScreen> {
               itemBuilder: (ctx, int) {
                 return Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: ClassesCard(context),
+                  child: JobTicketCard(context),
                 );
               },
             ),
