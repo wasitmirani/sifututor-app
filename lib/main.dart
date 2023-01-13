@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:sifututor/colors/constants.dart';
+import 'package:sifututor/screens/JobsTicketScreen.dart';
 import 'package:sifututor/screens/LoginScreen.dart';
 import 'package:sifututor/screens/NotificationScreen.dart';
+import 'screens/CustomSwitch.dart';
 import 'screens/JobTicketScreen.dart';
 import 'screens/MainScreen.dart';
 
@@ -35,12 +37,12 @@ class MyApp extends StatelessWidget {
       ),
       routes: {
         // When navigating to the "/" route, build the FirstScreen widget.
-        // '/': (context) => const MainScreen(),
-        '/': (context) => const NotificationScreen(),
+        '/': (context) => const JobsTicketScreen(),
+        // '/': (context) => const NotificationScreen(),
         // When navigating to the "/second" route, build the SecondScreen widget.
         '/login': (context) => const LoginScreen(),
         '/notification': (context) => const NotificationScreen(),
-        '/job-ticket': (context) => const JobTicketScreen(),
+        '/job-ticket': (context) => const JobsTicketScreen(),
       },
     );
   }

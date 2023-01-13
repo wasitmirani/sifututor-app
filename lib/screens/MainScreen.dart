@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sifututor/screens/JobTicketScreen.dart';
 import '../colors/constants.dart';
 import '/screens/HomeScreen.dart';
 
@@ -18,9 +19,9 @@ class _MainScreenState extends State<MainScreen> {
       padding: EdgeInsets.all(20.0),
       child: HomeScreen(),
     ),
-    Text(
-      'Index 1: Business',
-      style: optionStyle,
+    Padding(
+      padding: EdgeInsets.all(8.0),
+      child: JobTicketScreen(),
     ),
     Text(
       'Index 2: School',
